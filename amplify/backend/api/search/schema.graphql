@@ -7,3 +7,13 @@ type Todo @model @searchable {
   name: String!
   description: String
 }
+
+type Query {
+  listAllTodos: AllTodosConnection
+}
+
+type AllTodosConnection {
+  items: [Todo]
+  nextToken: String,
+  total: Int
+}

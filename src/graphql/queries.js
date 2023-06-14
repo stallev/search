@@ -1,6 +1,23 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
+export const listAllTodos = /* GraphQL */ `
+  query ListAllTodos {
+    listAllTodos {
+      items {
+        id
+        name
+        description
+        createdAt
+        updatedAt
+        __typename
+      }
+      nextToken
+      total
+      __typename
+    }
+  }
+`;
 export const searchTodos = /* GraphQL */ `
   query SearchTodos(
     $filter: SearchableTodoFilterInput
