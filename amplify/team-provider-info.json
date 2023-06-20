@@ -1,15 +1,15 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-search-dev-201016-authRole",
-      "UnauthRoleArn": "arn:aws:iam::260402007550:role/amplify-search-dev-201016-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::260402007550:role/amplify-search-dev-201016-authRole",
+      "AuthRoleName": "amplify-search-dev-215531-authRole",
+      "UnauthRoleArn": "arn:aws:iam::260402007550:role/amplify-search-dev-215531-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::260402007550:role/amplify-search-dev-215531-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-search-dev-201016-deployment",
-      "UnauthRoleName": "amplify-search-dev-201016-unauthRole",
-      "StackName": "amplify-search-dev-201016",
-      "StackId": "arn:aws:cloudformation:us-east-1:260402007550:stack/amplify-search-dev-201016/56056fa0-0ad6-11ee-aed0-0e9150b00405",
-      "AmplifyAppId": "d29pe733kspo02"
+      "DeploymentBucketName": "amplify-search-dev-215531-deployment",
+      "UnauthRoleName": "amplify-search-dev-215531-unauthRole",
+      "StackName": "amplify-search-dev-215531",
+      "StackId": "arn:aws:cloudformation:us-east-1:260402007550:stack/amplify-search-dev-215531/de0d5200-0ed2-11ee-995f-0e4c6e567c89",
+      "AmplifyAppId": "d35e29t7rhswxt"
     },
     "categories": {
       "api": {

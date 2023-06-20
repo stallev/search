@@ -1,9 +1,9 @@
 /* eslint-disable */
 // this is an auto generated file. This will be overwritten
 
-export const listAllTodos = /* GraphQL */ `
-  query ListAllTodos {
-    listAllTodos {
+export const getAllTodos = /* GraphQL */ `
+  query GetAllTodos {
+    getAllTodos {
       items {
         id
         name
@@ -13,7 +13,18 @@ export const listAllTodos = /* GraphQL */ `
         __typename
       }
       nextToken
-      total
+      __typename
+    }
+  }
+`;
+export const getTodoById = /* GraphQL */ `
+  query GetTodoById {
+    getTodoById {
+      id
+      name
+      description
+      createdAt
+      updatedAt
       __typename
     }
   }
